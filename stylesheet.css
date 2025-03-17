@@ -10,6 +10,7 @@ a {
 }
 
 img {
+    border: 10px solid rgb(255, 255, 0);
     border-radius: 10px;
 }
 
@@ -18,9 +19,8 @@ a:hover {
   }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(231, 101, 112);
+    list-style: square;
 }
+
+li { background: green; }
+li:nth-child(odd) { background: red; }
