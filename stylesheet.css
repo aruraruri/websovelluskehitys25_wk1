@@ -1,0 +1,26 @@
+body {
+    color: rgb(231, 101, 112);
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    color: rgb(27, 27, 9);
+    text-decoration: none;
+}
+
+img {
+    border-radius: 10px;
+}
+
+a:hover {
+    color: rgb(117, 12, 143);
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(231, 101, 112);
+}
